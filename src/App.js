@@ -89,7 +89,7 @@ function App(){
                   
     <div className="col-lg-10 col-md-10 col-sm-10">
     <Routes>
-    <Route path="/home" element={<Home/>}></Route>
+    <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}/>
       {/* <Route path="/career" element={<Career/>}/> */}
       <Route path="/services" element={<Services/>}/>

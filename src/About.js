@@ -9,7 +9,7 @@ export default function About() {
       {/* <div className="container mt-3"> */}
           <div className="row mt-3">
             <div className="col-md-6">
-                <h2 className="head-3">About Us</h2>
+                <h2 className="head-3">About Us usususu </h2>
               <p className="para2">Established in 2005, MOURI Tech has evolved as a trusted global enterprise solution provider to its customers from various industries across the globe, helping them transform into intelligent enterprises.<br></br>
               We offer a wide range of IT services that cater to the digital needs of businesses of today and tomorrow. </p>
               <span className="span1">Employee First. Customer Foremost.</span><br></br>
