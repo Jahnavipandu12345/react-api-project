@@ -1,5 +1,16 @@
-{
-    "user":[
-
-    ]
+[
+    {
+ 
+    "userid":"janu",
+    "password":"janu123@"    
+},{
+    "userid":"surekha",
+    "password":"surekha123@"
+},
+{  
+"userid":"thanu",
+"password":"thanu123@"
+ 
+ 
 }
+]

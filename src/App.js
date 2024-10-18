@@ -5,7 +5,7 @@ import FoodAPI from "./FoodAPI"
 import About from "./About"
 import Home from "./Home"
 import Services from "./Services";
-// import Gallery from "./Gallery";
+import Movies from "./Movies.js";
 // import Contact from "./Contact";
 // // import Career from "./Career";
 // import News from "./News";
@@ -46,7 +46,7 @@ function App(){
         <li className="nav-item dropdown">
       <Link to="/Contact" className="Lk   dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">API's</Link>
       <ul className="dropdown-menu">
-            <li><a class="dropdown-item" href="/NewAPI">NEWS API</a></li>
+            <li><a class="dropdown-item" href="/movies">MOVIES API</a></li>
             <li><a class="dropdown-item" href="/foodapi">FOOD API</a></li>
             <li><a class="dropdown-item" href="/Products">PRODUCT API</a></li>
            
@@ -62,26 +62,26 @@ function App(){
 
  
 <div className="row ">  
-       <div className="col-lg-2 col-md-2 col-sm-2">
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+       <div className="col-lg-2 col-md-2 col-sm-12">
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/home" className="left-nav">Home</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/about" className="left-nav">About</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/services" className="left-nav">Services</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/bmi" className="left-nav">BMI</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/newsapi" className="left-nav">News API</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/foodapi" className="left-nav">Food API</a><br></br>
       </div>
-      <div className="row"style={{marginTop:50,marginLeft:15}}>
+      <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/Products" className="left-nav">Product API</a><br></br>
       </div>
       
@@ -89,14 +89,14 @@ function App(){
                   
     <div className="col-lg-10 col-md-10 col-sm-10">
     <Routes>
-    <Route path="/" element={<Home/>}></Route>
+    <Route path="/home" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}/>
       {/* <Route path="/career" element={<Career/>}/> */}
       <Route path="/services" element={<Services/>}/>
       <Route path="/Products" element={<Products/>}/> 
       <Route path="/foodapi" element={<FoodAPI/>}/> 
       {/* <Route path="/Contact" element={<Contact/>}/> */}
-      {/* <Route path="/News" element={<News/>}/> */}
+      <Route path="/movies" element={<Movies/>}/>
     </Routes>
   </div>
 
