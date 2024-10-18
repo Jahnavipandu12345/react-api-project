@@ -20,14 +20,14 @@ function App(){
     <BrowserRouter>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="Home">MRSJ</a>
+    <Link to='/' class="navbar-brand" href="Home">MRSJ</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <Link to="/home" className="Lk">HOME</Link>
+        <Link to="/" className="Lk">HOME</Link>
         </li>
         <li class="nav-item">
         <Link to="/about" className="Lk">ABOUT</Link>
@@ -64,7 +64,7 @@ function App(){
 <div className="row ">  
        <div className="col-lg-2 col-md-2 col-sm-12">
       <div className="row"style={{marginTop:50,marginLeft:5}}>
-      <a href="/home" className="left-nav">Home</a><br></br>
+      <a href="/" className="left-nav">Home</a><br></br>
       </div>
       <div className="row"style={{marginTop:50,marginLeft:5}}>
       <a href="/about" className="left-nav">About</a><br></br>
@@ -104,15 +104,6 @@ function App(){
 
  
    
-     
- 
-     
-   
-    {/* .................................. */}
-   
-   
-   
-{/* .................... */}
       <div className="row" style={{marginTop:30}}>
       <div className="col-md-12">
       <p className="bg-dark text-light text-center p-3">CopyRight@gmail.com</p>
