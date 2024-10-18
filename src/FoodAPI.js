@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import FoodCard from './FoodCard';
-import pic from "./images/food-banner.png"
+// import pic from "./images/food-banner.png"
 export default function FoodAPI() {
     const [search,setSearch]=useState("");
   const [data,setData]=useState([]);
@@ -18,9 +18,9 @@ export default function FoodAPI() {
   }
   return (
     <div>
-       <img className='food-pic' src={pic}></img>
+       {/* <img className='food-pic' src={pic}></img> */}
       <center>
-        <h4 className='head'> Look for Your Food Receipe </h4>
+        <h3 className='mt-3 text-info'> Look for Your Food Receipe </h3>
         <form onSubmit={submitHandler}>
           <input type='text' className='mt-3' value={search} onChange={(e)=>setSearch(e.target.value)}></input>
           <br></br>
