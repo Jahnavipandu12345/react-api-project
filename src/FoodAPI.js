@@ -18,6 +18,10 @@ export default function FoodAPI() {
   };
 
   return (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
     <div className='row'>
       <div className='col-12'>
         <div className='position-relative'>
@@ -26,7 +30,22 @@ export default function FoodAPI() {
             Look for Your Food Recipe
           </h1>
         </div>
+<<<<<<< HEAD
 
+=======
+        <center>
+          <h4 className='head'> Look for Your Food Receipe </h4>
+          <form onSubmit={submitHandler}>
+            <input type='text' className='mt-3 form-control p-5' placeholder='Search Food Recipie' value={search} onChange={(e) => setSearch(e.target.value)}></input>
+            <br></br>
+            <input type='submit' className='btn btn-success px-5 mt-3 rounded-5' value="Search"></input>
+          </form>
+=======
+    <div>
+       {/* <img className='food-pic' src={pic}></img> */}
+      <center>
+        <h3 className='mt-3 text-info'> Look for Your Food Receipe </h3>
+>>>>>>> master
         <form onSubmit={submitHandler}>
           <input
             type='text'
@@ -42,6 +61,10 @@ export default function FoodAPI() {
             value="Search"
           />
         </form>
+<<<<<<< HEAD
+=======
+>>>>>>> d2798fc6a4166a667850f765a41dfc557550a75e
+>>>>>>> master
 
         {data.length > 0 ? <FoodCard data={data} /> : null}
       </div>
