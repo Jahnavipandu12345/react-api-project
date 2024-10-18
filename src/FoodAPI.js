@@ -17,7 +17,6 @@ export default function FoodAPI() {
       )
   }
   return (
-<<<<<<< HEAD
     <div className='row'>
       <div className='col-12'>
         <div className='d-flex justify-content-center'>
@@ -30,17 +29,7 @@ export default function FoodAPI() {
             <br></br>
             <input type='submit' className='btn btn-success px-5 mt-3 rounded-5' value="Search"></input>
           </form>
-=======
-    <div>
-       {/* <img className='food-pic' src={pic}></img> */}
-      <center>
-        <h3 className='mt-3 text-info'> Look for Your Food Receipe </h3>
-        <form onSubmit={submitHandler}>
-          <input type='text' className='mt-3' value={search} onChange={(e)=>setSearch(e.target.value)}></input>
-          <br></br>
-          <input type='submit' className='btn btn-primary mt-3' value="Search"></input>
-        </form>
->>>>>>> master
+
 
           {data.length > 1 ? <FoodCard data={data} /> : null}
 
